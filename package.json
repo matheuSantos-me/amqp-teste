@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "run:rabbitmq": "docker-compose up",
-    "run:auth-service": "cd auth-service && yarn dev",
-    "run:data-service": "cd data-service && yarn dev"
+    "run:auth-service": "cd auth-service && yarn && yarn dev",
+    "run:data-service": "cd data-service && yarn && yarn dev"
   },
   "keywords": [],
   "author": "",
